@@ -93,7 +93,7 @@ def iscollision(enemy_x,enemy_y,bullet_x,bullet_y):
     distance = math.sqrt(math.pow(enemy_x - bullet_x, 2) + math.pow(enemy_y - bullet_y,2))
     if distance < 27:
         return  True
-    else:
+    else: 
         return False
 
 
